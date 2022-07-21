@@ -1,0 +1,211 @@
+
+/*body {
+    background-image: url("");
+}*/
+body {
+    background: #111111;
+    /*background: linear-gradient(to right top, #FAFAFA,#d3d3d3);*/
+    overflow-x: hidden;
+}
+
+#mainText {
+    text-align: center;
+    font-size: 50px;
+    color: #DDDDDD;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+#user{
+    display: block;
+    margin: 300px auto 10px auto;
+}
+
+#phrase {
+    display: block;
+    margin: 20px auto 10px auto;
+}
+
+#phraseInput {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+    top: 10px;
+    position: relative;
+    transition: background 0.6s;
+}
+
+#phraseInput:focus{
+    background: #FFFBC8;
+}
+
+#phraseInputLabel {
+    display: block;
+    position: relative;
+    bottom: 51px;
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: -1px;
+    line-height: 1;
+    z-index: 1;
+    bottom: 43px;
+    position: relative;
+}
+
+#userInput {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+    transition: background 0.6s;
+}
+
+#userInput:focus{
+    background: #FFFBC8;
+}
+
+#userInputLabel {
+    display: block;
+    position: relative;
+    bottom: 51px;
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: -1px;
+    line-height: 1;
+    z-index: 1;
+    bottom: 55px;
+    position: relative;
+}
+
+#submitButton {
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    position:relative;
+    bottom:15px;
+}
+
+#voteUpButton {
+    right: 50px;
+    padding: 10px 20px;
+}
+
+#voteDownButton {
+    padding: 10px 20px;
+}
+
+#reloadButton {
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+
+input[type=submit] {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background-color: #d3d3d3;
+    transition-duration: 0.2s;
+}
+
+#reloadButton:hover, #submitButton:hover {
+    background-color: #a9a9a9;
+}
+
+#voteDownButton:hover {
+    background-color: #71b54e;
+}
+
+#voteUpButton:hover {
+    background-color: #f94449;
+}
+
+
+#top, #newest, #mostVoted {
+    text-align: center;
+    font-size: 30px;
+    top: 40px;
+    position: relative;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: -1px;
+    line-height: 39px;
+    font-weight: 300;
+}
+
+hr {
+    width: 100%;
+    border: 10px solid red;
+    position: relative;
+    top: 40px;
+}
+
+#votingForm {
+    top: 20px;
+    display: inline-block;
+    display: block;
+    margin: auto;
+    position:relative;
+    text-align: center;
+}
+
+#userData, #top, #newest, #mostVoted {
+    position: relative;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background-color: #555555;
+    max-width: fit-content;
+    border-radius: 25px;
+    padding: 20px 20px;
+    transition-duration: 0.2s;
+    position:relative;
+}
+
+#userData:hover, #top:hover, #newest:hover, #mostVoted:hover {
+    background-color: #777777;
+    
+}
+
+#userData.animated {
+
+}
+
+#userData.animated1{
+    animation: moveLeft 0.5s linear forwards;
+}
+
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(200);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/*#mainForm {
+    position: relative;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background-color: #EBECF0;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 25px;
+    padding: 30px 20px;
+}*/
